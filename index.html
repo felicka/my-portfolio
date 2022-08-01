@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
       integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
@@ -23,10 +29,58 @@
   </head>
   <body>
     <div class="home">
-      <h2>Hi there, I'm</h2>
-      <h1>Felicia</h1>
-      <h3 class="mb-5">Writer of words & code</h3>
-      <div><a href="#" class="btn btn-branding">Contact Me</a></div>
+      <h3>Hi there, I'm</h3>
+      <h1><span class="highlight-name">Felicia</span></h1>
+      <h2 class="mb-5">Writer of words & code</h2>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-3">
+          <span class="highlight-green"><a href="#">About Me</a></span>
+        </div>
+        <div class="col-3">
+          <span class="highlight-pink"><a href="#">Writing</a></span>
+        </div>
+        <div class="col-3">
+          <span class="highlight-green"><a href="#">Coding</a></span>
+        </div>
+        <div class="col-3">
+          <span class="highlight-pink"><a href="#">Contact</a></span>
+        </div>
+      </div>
+    </div>
+
+    <p class="text-center mb-5">
+      Featured Project which my best projects be choice to show
+    </p>
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <div class="project-description">
+            <h3 class="mb-5">Writing Portfolio</h3>
+            <p class="mb-5 text-muted">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts. Separated
+              they live in Bookmarksgrove right at the coast of the Semantics, a
+              large language ocean. A small river named Duden flows by
+              <a href="" class="btn btn-branding-outline">Learn more</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div class="project-description">
+            <h3 class="mb-5">Coding Portfolio</h3>
+            <p class="mb-5 text-muted">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts. Separated
+              they live in Bookmarksgrove right at the coast of the Semantics, a
+              large language ocean. A small river named Duden flows by
+              <a href="" class="btn btn-branding-outline">Learn more</a>
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>

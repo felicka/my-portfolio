@@ -3,16 +3,15 @@ body {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 90px;
   color: black;
-  font-weight: bold;
   display: block;
   margin: 0;
   line-height: 1.2;
   margin-bottom: 0.5px;
 }
 h2 {
-  font-size: 36px;
+  font-size: 30px;
   margin: 0;
   color: black;
   line-height: 1.5;
@@ -24,21 +23,33 @@ h3 {
   color: black;
   margin-top: 0;
 }
+p {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 30px;
+}
 .home {
   background-color: white;
   text-align: center;
-  padding: 160px 20px;
+  padding: 100px 20px;
+}
+.container {
+  text-align: center;
+}
+.highlight-name {
+  background-color: #75c487;
+  padding: 5px;
+}
+.highlight-green {
+  background-color: #75c487;
+  padding: 5px;
 }
 
-.btn-branding {
-  color: black;
-  background-color: palevioletred;
-  border-radius: 4px;
-  font-size: 18px;
-  line-height: 27px;
-  padding: 15px 30px;
-  text-align: center;
-  vertical-align: middle;
+.highlight-pink {
+  background-color: #fbcbc9;
+  padding: 5px;
+}
+a {
   text-decoration: none;
-  font-weight: 400;
+  color: black;
 }
