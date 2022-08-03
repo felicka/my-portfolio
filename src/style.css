@@ -78,15 +78,42 @@ a {
   padding: 120px 60px;
 }
 
-@media (max-width: 500) {
+@media (max-width: 900px) {
   h1 {
-    font-size: 60px;
+    font-size: 40px;
+    line-height: 2;
+  }
+  .home {
+    padding: 80px 20px;
   }
   .project-description {
     text-align: center;
+    padding: 0;
   }
   .col-md-6 {
     margin-bottom: 0;
     padding: 0;
   }
+  .about-section-content {
+    text-align: center;
+  }
+}
+img {
+  max-width: 50%;
+}
+.about-section {
+  padding: 160px 20px;
+  text-align: left;
+}
+
+.about-section h1 {
+  font-size: 50px;
+  line-height: 80px;
+}
+.about-section h2 {
+  font-size: 18px;
+}
+
+.about-section-content {
+  margin: 30px;
 }
