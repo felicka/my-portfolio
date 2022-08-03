@@ -94,26 +94,26 @@ a {
     margin-bottom: 0;
     padding: 0;
   }
-  .about-section-content {
+  .content-container {
     text-align: center;
   }
 }
 img {
   max-width: 50%;
 }
-.about-section {
+.content-container {
   padding: 160px 20px;
   text-align: left;
 }
 
-.about-section h1 {
+.content-container h1 {
   font-size: 50px;
   line-height: 80px;
 }
-.about-section h2 {
+.content-container h2 {
   font-size: 18px;
 }
 
-.about-section-content {
+.content {
   margin: 30px;
 }
