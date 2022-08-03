@@ -45,10 +45,6 @@ p {
   background-color: #ffe8e8;
 }
 
-.container {
-  text-align: center;
-}
-
 .highlight-green {
   background-color: var(--branding-color);
   padding: 5px;
@@ -78,6 +74,35 @@ a {
   padding: 120px 60px;
 }
 
+.logo {
+  max-height: 40px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 10px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: #75c487;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 40px;
@@ -97,10 +122,11 @@ a {
   .content-container {
     text-align: center;
   }
+  nav a {
+    font-size: 12px;
+  }
 }
-img {
-  max-width: 50%;
-}
+
 .content-container {
   padding: 160px 20px;
   text-align: left;
