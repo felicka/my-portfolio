@@ -83,7 +83,7 @@ a {
     font-size: 40px;
     line-height: 2;
   }
-  .home {
+  .hero {
     padding: 80px 20px;
   }
   .project-description {
@@ -106,12 +106,20 @@ img {
   text-align: left;
 }
 
-.content-container h1 {
+.content h1 {
   font-size: 50px;
   line-height: 80px;
 }
-.content-container h2 {
+.content h2 {
   font-size: 18px;
+}
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: var(--main-font-family);
+}
+.content p {
+  font-size: 14px;
 }
 
 .content {
