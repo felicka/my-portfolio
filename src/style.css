@@ -44,7 +44,7 @@ p {
 
 .hero {
   text-align: center;
-  padding: 100px 20px;
+  padding: 80px 20px;
   background-color: #ffe8e8;
 }
 
@@ -154,7 +154,7 @@ footer .social-links a:hover {
   }
 
   .hero {
-    padding: 80px 20px;
+    padding: 60px 20px;
   }
   .project-description {
     text-align: center;
@@ -170,11 +170,10 @@ footer .social-links a:hover {
   nav a {
     font-size: 12px;
   }
-
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
   text-align: left;
 }
 
