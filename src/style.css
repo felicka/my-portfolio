@@ -45,7 +45,7 @@ p {
 .hero {
   text-align: center;
   padding: 80px 20px;
-  background-color: #ffe8e8;
+  background-color: #fcf8f1;
 }
 
 .highlight-green {
@@ -106,6 +106,9 @@ nav li.active a {
   color: #75c487;
 }
 
+.girl {
+  max-width: 25%;
+}
 footer {
   margin: 60px 0;
 }
