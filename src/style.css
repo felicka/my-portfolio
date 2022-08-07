@@ -196,3 +196,10 @@ footer .social-links a:hover {
 .content {
   margin: 30px;
 }
+
+.sample-container li {
+  font-size: 12px;
+}
+h6 {
+  text-align: center;
+}
