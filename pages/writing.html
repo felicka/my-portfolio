@@ -29,38 +29,34 @@
   </head>
   <body>
     <div class="container">
-      <nav class="d-flex justify-content-between">
-        <a href="../index.html">
-          <img
-            src="../images/felicia-logo.png"
-            class="logo d-none d-md-block"
-            alt="Felicia Logo"
-          />
-          <img
-            src="../images/felicia-logo.png"
-            class="logo d-block d-md-none"
-            alt="Felicia Logo"
-          />
-        </a>
-        <ul>
-          <li>
-            <a href="../index.html" title="Homepage">Home</a>
-          </li>
-          <li>
-            <a href="about.html" title="About Felicia">About</a>
-          </li>
-          <li class="active">
-            <a href="writing.html" title="Felicia's Writing Portfolio"
-              >Writing</a
-            >
-          </li>
-          <li>
-            <a href="coding.html" title="Felicia's Coding Portfolio">Coding</a>
-          </li>
-          <li>
-            <a href="contact.html" title="Contact Felicia">Contact</a>
-          </li>
-        </ul>
+      <nav class="navbar navbar-expand-lg navbar-default">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"
+            ><img src="../images/felicia-logo.png" alt="" class="logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+              <a class="nav-link" aria-current="page" href="../index.html"
+                >Home</a
+              >
+              <a class="nav-link" href="pages/about.html">About</a>
+              <a class="nav-link active" href="writing.html">Writing</a>
+              <a class="nav-link" href="coding.html">Coding</a>
+              <a class="nav-link" href="contact.html">Contact</a>
+            </div>
+          </div>
+        </div>
       </nav>
     </div>
     <br />
@@ -71,6 +67,7 @@
             <i class="fa-solid fa-marker"></i> Writing Portfolio</span
           >
         </h1>
+        <h3>My Writing Experience</h3>
         <p>
           My love for writing and my BA in Creative Writing has added to my
           years of writing experience. Not only with personal projects, but also
@@ -83,7 +80,7 @@
           graphic design in Canva. Some of my projects can be found at the
           bottom of the page.
         </p>
-        <h3 class="text-center">Explore My Writing Samples</h3>
+        <h3 class="text-center" id="idex">Explore My Writing Samples</h3>
         <br />
         <div class="sample-container container">
           <div class="row">
@@ -111,7 +108,11 @@
               <h6><i class="fa-solid fa-book-open"></i> Books & Writing</h6>
 
               <ul>
-                <li>Book Review</li>
+                <li>
+                  <a href="writing.html#book-review" title="Book Review"
+                    >Book Review</a
+                  >
+                </li>
                 <li>Reading What You Want</li>
               </ul>
             </div>
@@ -128,9 +129,52 @@
           </div>
         </div>
         <br />
-        <div class="container">
-          <h2>Heading</h2>
-          <p>dfdd</p>
+        <h3 class="text-center">Writing Samples</h3>
+        <br />
+        <div class="sample">
+          <h2 id="book-review">
+            Book Review - The Bear and the Nightingale by Katherine Arden
+          </h2>
+          <br />
+          <p>
+            The Bear and the Nightingale by Katherine Arden is steeped in lush
+            writing and folklore. Set in medieval Russia, with wintery
+            landscapes and thick forests. It’s like being transported back in
+            time without having to suffer the brutal cold and hunger like the
+            characters. The story follows a young girl into her adolescent
+            years, and how she lives and handles being a free spirit in a strict
+            community. Told in the third person POV, the reader gets to
+            experience several different perspectives without losing touch with
+            the heart of the story.
+          </p>
+          <p>
+            Folk tales are intricately laced throughout, but what really makes
+            everything come alive is the writing style. It’s like reading a
+            fairy-tale and then becoming a part of it. The vivid descriptions
+            transport the reader into the story and take them on a journey along
+            with all their senses. The descriptions of food were enough to make
+            me crave an array of plain yet tasteful dishes. My favorites are
+            honey-wine, cheese and mushroom pie, and a loaf of black bread.
+            Russian names and words are scattered throughout, immersing the
+            reader even further into the story. The fairy tales served as a
+            basis for the story and were weaved into the main plotline. It was
+            refreshing to read fairy tales I didn’t grow up with, especially in
+            the context of a grander fairy-tale.
+          </p>
+          <p>
+            The story was solid from start to end. The characters are
+            intriguing, and each memorable in their own way. Reaching the end
+            left me craving more. Luckily, it is part of a trilogy, so two more
+            books are waiting for me to devour them. I recommend this book to
+            anyone who loves fairy tales, folk tales, and medieval settings. If
+            the writing doesn’t pull you in, some other element will.
+          </p>
+          <a
+            href="writing.html#idex"
+            class="text-left text-muted"
+            title="Back to Index"
+            >Back to Index</a
+          >
         </div>
 
         <br />
@@ -182,19 +226,27 @@
         </div>
 
         <div class="social-links d-flex justify-content-center mb-5">
-          <a href="" target="_blank" title="LinkedIn Profile"
+          <a
+            href="https://www.linkedin.com/in/felicia-kleingeld-754384160"
+            target="_blank"
+            title="LinkedIn Profile"
             ><i class="fa-brands fa-linkedin"></i
           ></a>
-          <a href="" target="_blank" title="Github Profile"
+          <a
+            href="https://github.com/felicka"
+            target="_blank"
+            title="Github Profile"
             ><i class="fa-brands fa-github"></i
-          ></a>
-          <a href="" target="_blank" title="Instagram Profile"
-            ><i class="fa-brands fa-instagram"></i
           ></a>
         </div>
         <p class="text-center mt-4">
-          Coded and Designed by Felicia Webpage is
-          <a href="" target="_blank">Open-sourced</a>
+          <a
+            href="https://github.com/felicka/my-portfolio"
+            target="_blank"
+            class="link-decoration"
+            >Open-sourced code</a
+          >
+          & Design by Felicia
         </p>
       </footer>
     </div>

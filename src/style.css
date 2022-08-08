@@ -43,7 +43,7 @@ p {
 }
 
 .hero {
-  padding: 80px 20px;
+  padding: 60px 20px;
   background-color: #fcf8f1;
 }
 
@@ -71,6 +71,10 @@ a {
   line-height: 27px;
   padding: 15px 30px;
 }
+.btn-branding-outline:hover {
+  color: #75c487;
+  cursor: pointer;
+}
 
 .logo {
   max-height: 40px;
@@ -78,18 +82,10 @@ a {
 
 nav {
   padding: 20px 0;
-}
-
-nav ul {
-  padding: 0;
-  margin: 0;
-}
-nav li {
-  display: inline;
-  list-style: none;
   line-height: 42px;
   margin-left: 10px;
 }
+
 nav a {
   text-decoration: none;
   color: black;
@@ -112,7 +108,7 @@ footer {
 
 footer .contact-box {
   background-color: #75c487;
-  padding: 30px 120px;
+  padding: 20px 120px;
   border-radius: 10px;
 }
 footer .email-link {
@@ -202,4 +198,17 @@ footer .social-links a:hover {
 }
 h6 {
   text-align: center;
+}
+
+.link-decoration {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  transition: all 100ms ease-in-out;
+}
+
+.link-decoration:hover {
+  color: #75c487;
+  background-color: #fbcbc9;
+  text-decoration: none;
 }
