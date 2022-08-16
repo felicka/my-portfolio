@@ -50,7 +50,7 @@
               <a class="nav-link" aria-current="page" href="../index.html"
                 >Home</a
               >
-              <a class="nav-link" href="pages/about.html">About</a>
+              <a class="nav-link" href="about.html">About</a>
               <a class="nav-link active" href="writing.html">Writing</a>
               <a class="nav-link" href="coding.html">Coding</a>
               <a class="nav-link" href="contact.html">Contact</a>
@@ -67,24 +67,38 @@
             <i class="fa-solid fa-marker"></i> Writing Portfolio</span
           >
         </h1>
-        <h3>My Writing Experience</h3>
-        <p>
-          My love for writing and my BA in Creative Writing has added to my
-          years of writing experience. Not only with personal projects, but also
-          with shared ones. I’ve been blogging on and off for ten years, sharing
-          my travels, personal experiences, and book reviews and
-          recommendations. Some other writing-related skills include beta
-          reading and proofreading.
-          <br />One of my short stories has been published in YOU Magazine and
-          several more are on submission. <br />I also like experimenting with
-          graphic design in Canva. Some of my projects can be found at the
-          bottom of the page.
-        </p>
-        <h3 class="text-center" id="idex">Explore My Writing Samples</h3>
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <h3>My Writing Experience</h3>
+              <p>
+                My love for writing and my BA in Creative Writing has added to
+                my years of writing experience. Not only with personal projects,
+                but also with shared ones. I’ve been blogging on and off for ten
+                years, sharing my travels, personal experiences, and book
+                reviews and recommendations. Some other writing-related skills
+                include beta reading and proofreading.
+              </p>
+              <p>
+                One of my short stories has been published in YOU Magazine and
+                several more are on submission.
+              </p>
+            </div>
+            <div class="col-6">
+              <img
+                src="../images/writing-1.jpg"
+                class="img-fluid mb-3 rounded"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
         <br />
         <div class="sample-container container">
+          <h2 class="highlight-green" id="idex">My Writing Samples</h2>
+          <br />
           <div class="row">
-            <div class="col-3">
+            <div class="col-4">
               <h6><i class="fa-solid fa-plane"></i> Travel</h6>
               <ul>
                 <li>Old Town Alexandria</li>
@@ -94,7 +108,7 @@
                 <li>Christmas Markets</li>
               </ul>
             </div>
-            <div class="col-3">
+            <div class="col-4">
               <h6>
                 <i class="fa-solid fa-building-columns"></i> Arts & Culture
               </h6>
@@ -104,37 +118,29 @@
                 <li>MET Museum</li>
               </ul>
             </div>
-            <div class="col-3">
+            <div class="col-4">
               <h6><i class="fa-solid fa-book-open"></i> Books & Writing</h6>
 
               <ul>
                 <li>
-                  <a href="writing.html#book-review" title="Book Review"
+                  <a
+                    href="writing.html#book-review"
+                    title="Book Review"
+                    class="link-decoration"
                     >Book Review</a
                   >
                 </li>
                 <li>Reading What You Want</li>
               </ul>
             </div>
-            <div class="col-3">
-              <h6>
-                <i class="fa-solid fa-wand-magic-sparkles"></i> Design Projects
-              </h6>
-
-              <ul>
-                <li>Items on My Desk</li>
-                <li>Morning Routine</li>
-              </ul>
-            </div>
           </div>
         </div>
         <br />
-        <h3 class="text-center">Writing Samples</h3>
-        <br />
-        <div class="sample">
-          <h2 id="book-review">
+
+        <div class="writing-samples">
+          <h3 id="book-review">
             Book Review - The Bear and the Nightingale by Katherine Arden
-          </h2>
+          </h3>
           <br />
           <p>
             The Bear and the Nightingale by Katherine Arden is steeped in lush
@@ -173,41 +179,10 @@
             href="writing.html#idex"
             class="text-left text-muted"
             title="Back to Index"
-            >Back to Index</a
+            >> Back to Index</a
           >
         </div>
-
         <br />
-        <div class="content-container container">
-          <div class="content">
-            <h1 class="mb-5 text-center">My Design Projects</h1>
-
-            <div class="row">
-              <div class="col-md-6 mb-4">
-                <img
-                  src="../images/insta-post-1.png"
-                  class="img-fluid mb-3 rounded"
-                  alt=""
-                />
-                <h3 class="text-center m-0">Items on My Desk</h3>
-                <p class="text-center text-muted">
-                  Instagram post to share what's on my desk
-                </p>
-              </div>
-              <div class="col-md-6 mb-4">
-                <img
-                  src="../images/insta-post-2.png"
-                  class="img-fluid mb-3 rounded"
-                  alt=""
-                />
-                <h3 class="text-center m-0">Morning Routine</h3>
-                <p class="text-center text-muted">
-                  Instagram post to share morning routine tips
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
       <footer>
         <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
@@ -222,6 +197,7 @@
               title="Contact Felicia"
               >Contact me</a
             >
+            ,
           </div>
         </div>
 

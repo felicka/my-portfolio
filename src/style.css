@@ -211,4 +211,41 @@ h6 {
   color: #75c487;
   background-color: #fbcbc9;
   text-decoration: none;
+  font-weight: bold;
+}
+
+.writing-samples {
+  margin: auto;
+}
+.writing-samples p {
+  font-family: calibri;
+  padding: 0px 40px;
+  font-size: 18px;
+}
+.writing-samples a {
+  padding: 0px 40px;
+}
+.writing-samples h3 {
+  text-align: center;
+  line-height: 32px;
+  font-weight: bold;
+}
+.sample-container {
+  background-color: #fcf8f1;
+  padding: 60px 10px;
+  text-align: center;
+}
+.sample-container h2 {
+  font-size: 40px;
+}
+.sample-container h6 {
+  font-size: 24px;
+  font-family: calibri;
+}
+.sample-container li {
+  text-decoration: none;
+  list-style: none;
+
+  font-size: 18px;
+  font-family: calibri;
 }
