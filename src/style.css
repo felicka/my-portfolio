@@ -193,9 +193,6 @@ footer .social-links a:hover {
   margin: 30px;
 }
 
-.sample-container li {
-  font-size: 12px;
-}
 h6 {
   text-align: center;
 }
@@ -226,14 +223,12 @@ h6 {
   padding: 0px 40px;
 }
 .writing-samples h3 {
-  text-align: center;
   line-height: 32px;
   font-weight: bold;
 }
 .sample-container {
   background-color: #fcf8f1;
-  padding: 60px 10px;
-  text-align: center;
+  padding: 30px 10px;
 }
 .sample-container h2 {
   font-size: 40px;
