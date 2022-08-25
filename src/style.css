@@ -21,21 +21,22 @@ h1 {
 
 h2 {
   font-size: 40px;
-  margin: 0;
+  margin: 1;
   color: black;
   line-height: 2;
   display: block;
+  padding: 5px;
 }
 
 h3 {
   font-size: 30px;
   line-height: 2;
   color: black;
-  margin-top: 0;
+  margin: 1;
 }
 
 h4 {
-  font-size: 30px;
+  font-size: 25px;
 }
 p {
   font-size: 16px;
@@ -54,6 +55,9 @@ b {
 .hero .text {
   text-align: right;
 }
+.hero i {
+  color: var(--tertiary-color);
+}
 .colored-container {
   padding: 60px 40px;
   background-color: #fcf8f1;
@@ -65,7 +69,7 @@ b {
 }
 
 .highlight-pink {
-  background-color: #fbcbc9;
+  background-color: var(--secondary-color);
   padding: 5px;
 }
 
@@ -76,7 +80,7 @@ a {
 
 .btn-branding-outline {
   color: black;
-  background-color: #fbcbc9;
+  background-color: var(--secondary-color);
   border: 1px solid;
   border-radius: 4px;
   font-size: 18px;
@@ -109,6 +113,14 @@ nav a {
 
 nav a:hover,
 nav li.active a {
+  color: var(--branding-color);
+}
+.writing-samples a {
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+  color: var(--tertiary-color);
+}
+.writing-samples a:hover {
   color: #75c487;
 }
 
@@ -122,7 +134,7 @@ footer {
 }
 
 footer .contact-box {
-  background-color: #75c487;
+  background-color: var(--branding-color);
   padding: 20px 120px;
   border-radius: 10px;
 }
@@ -134,7 +146,7 @@ footer .email-link {
 }
 
 footer .email-link:hover {
-  color: #75c487;
+  color: var(--branding-color);
   background-color: var(--tertiary-color);
 }
 
@@ -148,7 +160,7 @@ footer .social-links a {
 }
 
 footer .social-links a:hover {
-  color: #75c487;
+  color: var(--branding-color);
   background-color: var(--tertiary-color);
 }
 
@@ -198,6 +210,10 @@ footer .social-links a:hover {
   text-align: left;
 }
 
+.contact-container i {
+  color: var(--tertiary-color);
+}
+
 .content h1 {
   font-size: 50px;
   line-height: 80px;
@@ -226,7 +242,7 @@ h6 {
 }
 
 .link-decoration:hover {
-  color: #75c487;
+  color: var(--branding-color);
   background-color: var(--tertiary-color);
   text-decoration: none;
   font-weight: bold;
@@ -234,9 +250,10 @@ h6 {
 
 .writing-samples {
   margin: auto;
+  padding: 15px;
 }
 .writing-samples p {
-  font-family: calibri;
+  font-family: var(--default-font-family);
   padding: 0px 40px;
   font-size: 18px;
 }
@@ -248,7 +265,7 @@ h6 {
   padding: 10px;
 }
 .sample-container {
-  background-color: #fbcbc9;
+  background-color: var(--secondary-color);
   padding: 30px 10px;
   border: 3px solid var(--tertiary-color);
   border-radius: 4px;
@@ -259,11 +276,11 @@ h6 {
 }
 .sample-container h6 {
   font-size: 24px;
-  font-family: calibri;
+  font-family: var(--default-font-family);
 }
 .sample-container li {
   text-decoration: none;
   list-style: none;
   font-size: 18px;
-  font-family: calibri;
+  font-family: var(--default-font-family);
 }
