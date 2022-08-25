@@ -2,7 +2,7 @@
   --branding-color: #75c487;
   --secondary-color: #fbcbc9;
   --main-font-family: "monospace";
-  --default-font-family: "monospace";
+  --default-font-family: "calibri";
 }
 
 body {
@@ -19,14 +19,14 @@ h1 {
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 40px;
   margin: 0;
   color: black;
-  line-height: 1.5;
+  line-height: 2;
 }
 
 h3 {
-  font-size: 26px;
+  font-size: 30px;
   line-height: 2;
   color: black;
   margin-top: 0;
@@ -46,15 +46,19 @@ p {
   padding: 60px 20px;
   background-color: #fcf8f1;
 }
+.colored-container {
+  padding: 100px 40px;
+  background-color: #fcf8f1;
+}
 
 .highlight-green {
   background-color: var(--branding-color);
-  padding: 5px;
+  padding: 7px;
 }
 
 .highlight-pink {
   background-color: #fbcbc9;
-  padding: 5px;
+  padding: 7px;
 }
 
 a {
@@ -143,14 +147,17 @@ footer .social-links a:hover {
     line-height: 1.5;
   }
   h2 {
-    font-size: 34px;
+    font-size: 30px;
   }
   h4 {
-    font-size: 24px;
+    font-size: 20px;
+  }
+  p {
+    font-size: 12px;
   }
 
   .hero {
-    padding: 60px 20px;
+    padding: 50px 10px;
   }
   .project-description {
     text-align: center;
@@ -178,12 +185,12 @@ footer .social-links a:hover {
   line-height: 80px;
 }
 .content h2 {
-  font-size: 18px;
+  font-size: 30px;
+  line-height: 1.5;
 }
 .content h3 {
-  font-size: 24px;
+  font-size: 25px;
   line-height: 1.5;
-  font-family: var(--main-font-family);
 }
 .content p {
   font-size: 14px;
@@ -224,14 +231,14 @@ h6 {
 }
 .writing-samples h3 {
   line-height: 32px;
-  font-weight: bold;
 }
 .sample-container {
-  background-color: #fcf8f1;
+  background-color: #fbcbc9;
   padding: 30px 10px;
 }
 .sample-container h2 {
   font-size: 40px;
+  font-weight: bold;
 }
 .sample-container h6 {
   font-size: 24px;
@@ -240,7 +247,6 @@ h6 {
 .sample-container li {
   text-decoration: none;
   list-style: none;
-
   font-size: 18px;
   font-family: calibri;
 }
