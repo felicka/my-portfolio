@@ -1,6 +1,7 @@
 :root {
   --branding-color: #75c487;
   --secondary-color: #fbcbc9;
+  --tertiary-color: #be1558;
   --main-font-family: "monospace";
   --default-font-family: "calibri";
 }
@@ -23,6 +24,7 @@ h2 {
   margin: 0;
   color: black;
   line-height: 2;
+  display: block;
 }
 
 h3 {
@@ -41,24 +43,30 @@ p {
   line-height: 30px;
   margin-top: 0;
 }
+b {
+  color: var(--tertiary-color);
+}
 
 .hero {
   padding: 60px 20px;
   background-color: #fcf8f1;
 }
+.hero .text {
+  text-align: right;
+}
 .colored-container {
-  padding: 100px 40px;
+  padding: 60px 40px;
   background-color: #fcf8f1;
 }
 
 .highlight-green {
   background-color: var(--branding-color);
-  padding: 7px;
+  padding: 5px;
 }
 
 .highlight-pink {
   background-color: #fbcbc9;
-  padding: 7px;
+  padding: 5px;
 }
 
 a {
@@ -74,9 +82,12 @@ a {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+  margin: 10px;
+  margin-bottom: 25px;
 }
 .btn-branding-outline:hover {
-  color: #75c487;
+  color: var(--branding-color);
+  background-color: var(--tertiary-color);
   cursor: pointer;
 }
 
@@ -124,7 +135,7 @@ footer .email-link {
 
 footer .email-link:hover {
   color: #75c487;
-  background-color: #fbcbc9;
+  background-color: var(--tertiary-color);
 }
 
 footer .social-links a {
@@ -138,7 +149,7 @@ footer .social-links a {
 
 footer .social-links a:hover {
   color: #75c487;
-  background-color: #fbcbc9;
+  background-color: var(--tertiary-color);
 }
 
 @media (max-width: 900px) {
@@ -147,10 +158,13 @@ footer .social-links a:hover {
     line-height: 1.5;
   }
   h2 {
-    font-size: 30px;
+    font-size: 25px;
+  }
+  h3 {
+    font-size: 20px;
   }
   h4 {
-    font-size: 20px;
+    font-size: 15px;
   }
   p {
     font-size: 12px;
@@ -158,14 +172,18 @@ footer .social-links a:hover {
 
   .hero {
     padding: 50px 10px;
+    text-align: center;
+  }
+  .hero .text {
+    text-align: center;
   }
   .project-description {
     text-align: center;
-    padding: 0;
+    padding: 00;
   }
   .col-md-6 {
     margin-bottom: 0;
-    padding: 0;
+    padding: 1;
   }
   .content-container {
     text-align: center;
@@ -196,10 +214,6 @@ footer .social-links a:hover {
   font-size: 14px;
 }
 
-.content {
-  margin: 30px;
-}
-
 h6 {
   text-align: center;
 }
@@ -213,7 +227,7 @@ h6 {
 
 .link-decoration:hover {
   color: #75c487;
-  background-color: #fbcbc9;
+  background-color: var(--tertiary-color);
   text-decoration: none;
   font-weight: bold;
 }
@@ -231,10 +245,13 @@ h6 {
 }
 .writing-samples h3 {
   line-height: 32px;
+  padding: 10px;
 }
 .sample-container {
   background-color: #fbcbc9;
   padding: 30px 10px;
+  border: 3px solid var(--tertiary-color);
+  border-radius: 4px;
 }
 .sample-container h2 {
   font-size: 40px;
